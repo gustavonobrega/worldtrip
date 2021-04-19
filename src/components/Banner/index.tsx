@@ -11,7 +11,7 @@ export function Banner() {
     >
       <Flex maxWidth={1160} mx="auto" align="center" justify="space-between" >
         <Box maxWidth={524}>
-          <Text fontSize="2.25rem" color="light.text" fontWeight="500">
+          <Text as="h2" fontSize="2.25rem" color="light.text" fontWeight="500">
             5 Continentes, 
             <br/> 
             infinitas possibilidades.
@@ -24,7 +24,7 @@ export function Banner() {
             Chegou a hora de tirar do papel a viagem que voçê sempre sonhou.
           </Text>
         </Box>
-        <Image src="airplane.svg" position="relative" top="20" />
+        <Image src="airplane.svg" alt="Avião" position="relative" top="20" />
       </Flex>
     </Box>
   );
