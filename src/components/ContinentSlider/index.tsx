@@ -17,13 +17,13 @@ export function ContinentSlider() {
       >
 
         <SwiperSlide>
-          <Slide image="./continents/europe.png"  slug="europe" continent="Europe" description="O continente mais antigo" />
+          <Slide image="./images/europe.png"  slug="europe" continent="Europe" description="O continente mais antigo" />
         </SwiperSlide>
         <SwiperSlide>
-          <Slide image="./continents/asia.jpeg" slug="asia" continent="Asia" description="O maior dos continentes" />
+          <Slide image="./images/asia.jpeg" slug="asia" continent="Asia" description="O maior dos continentes" />
         </SwiperSlide>
         <SwiperSlide>
-          <Slide image="./continents/oceania.jpg" slug="oceania" continent="Oceania" description="O continente mais isolado do mundo" />
+          <Slide image="./images/oceania.jpg" slug="oceania" continent="Oceania" description="O continente mais isolado do mundo" />
         </SwiperSlide>
       </Swiper>
     </Box>
