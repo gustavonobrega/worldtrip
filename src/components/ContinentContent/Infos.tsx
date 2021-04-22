@@ -10,9 +10,9 @@ interface InfoProps {
 
 export function Infos({ quantity, info, icon }: InfoProps) {
   return (
-  <Flex flexDir="column" align="center">
-    <Heading  fontSize="5xl" color="highlight" fontWeight="600">{quantity}</Heading>
-    <Text fontSize="1.5rem" fontWeight="600" >
+  <Flex flexDir="column" align={['flex-start', "center"]}>
+    <Heading  fontSize={["3xl","5xl"]} color="highlight" fontWeight="600">{quantity}</Heading>
+    <Text fontSize={["1rem","1.5rem"]} fontWeight="600" >
       {info}
 
       {icon && (

@@ -22,10 +22,10 @@ export function Slide({ image, continent, description, slug }: SlideProps) {
     >
       <Link href={`/continent/${slug}`} >
         <a>
-          <Heading  fontSize="5xl" fontWeight="700" color="light.text" _hover={{ color: 'highlight' }} >
+          <Heading  fontSize={["4xl", "4xl", "5xl"]} fontWeight="700" color="light.text" _hover={{ color: 'highlight' }} >
             {continent}
           </Heading>
-          <Text fontSize="1.5rem"  fontWeight="700" color="light.info" mt="4" >{description}</Text>
+          <Text fontSize={["1.3rem", "1.3rem", "1.5rem"]}  fontWeight="700" color="light.info" mt="4" >{description}</Text>
         </a>
       </Link>
     </Flex>

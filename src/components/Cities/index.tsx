@@ -1,13 +1,23 @@
-import { Box, Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Heading, SimpleGrid, Grid } from "@chakra-ui/react";
 
 import { CitiesInfo } from './CitiesInfo';
 
 export function Cities() {
   return (
-    <Box width="100%" maxWidth="1160" mx="auto" mt="20" mb="20"  >
-      <Heading fontSize="5xl" mb="10">Cidades +100</Heading>
+    <Box 
+      width="100%" 
+      maxWidth="1160" 
+      mx="auto" 
+      mt={["10", "10", "20"]} 
+      mb="5"
+    >
+      <Heading fontSize={["2xl","5xl"]} px={["20px", "20px", "0"]} mb="5">Cidades +100</Heading>
 
-      <SimpleGrid columns={[2, null, 4]} spacing="40px">
+      <Grid 
+        templateColumns={["1fr", "1fr", "1fr 1fr", "repeat(4, 1fr)"]} 
+        gap={['20px','45px']}
+        px={["60px", "120px", "0"]}
+      >
         <CitiesInfo 
           city="Londres" 
           country="Reino Unido" 
@@ -38,7 +48,7 @@ export function Cities() {
           image="/images/amsterda.png" 
           icon="/icons/holanda.svg"
         />
-      </SimpleGrid>
+      </Grid>
     </Box>
   )
 }

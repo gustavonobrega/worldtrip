@@ -16,8 +16,8 @@ export function ContinentBanner() {
         fontSize="3rem"
         fontWeight="600"
         color="light.text"
-        pt="369px"
-        pl="6"
+        pt={["200px","369px"]}
+        pl={["110px","18px"]}
       >
         Europa
       </Text>
