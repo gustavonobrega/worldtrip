@@ -42,7 +42,7 @@ $ cd worldtrip
 $ yarn
 
 # Run the app
-$ yarn start
+$ yarn dev
 ```
 
 ---
